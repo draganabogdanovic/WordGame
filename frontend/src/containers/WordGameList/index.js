@@ -1,0 +1,1 @@
+export { WordGameList } from './WordGameList';

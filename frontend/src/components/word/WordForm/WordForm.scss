@@ -1,0 +1,16 @@
+.word-form {
+  margin: 0 auto;
+  border-width: 1px;
+  border-color: #95999c;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  padding: 100px;
+  width: 30%;
+
+  &__error {
+    margin-top: 5px;
+    color: #004085;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,18 @@
+.input{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+
+  &__label {
+    text-align: left;
+  }
+
+  &__field {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 98%;
+    height: 30px;
+  }
+}

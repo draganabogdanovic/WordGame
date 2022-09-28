@@ -1,0 +1,1 @@
+export { WordGameEmail } from './WordGameEmail';

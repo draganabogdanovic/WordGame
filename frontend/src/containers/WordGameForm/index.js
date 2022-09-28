@@ -1,0 +1,1 @@
+export { WordGameForm } from './WordGameForm';

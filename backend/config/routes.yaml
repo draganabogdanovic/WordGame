@@ -1,0 +1,10 @@
+controllers:
+    resource: ../src/Adapter/Http/Controller
+    type: annotation
+
+api_login_user:
+    path: /api/login/login_user
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation

@@ -1,0 +1,20 @@
+.word-list {
+  margin: 0 auto;
+  border-width: 1px;
+  border-color: #95999c;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  padding: 20px 100px;
+  width: 30%;
+
+  &__word {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+
+    &__value {
+      &::after{
+        content: "\002D";
+      }
+    }
+  }
+}
